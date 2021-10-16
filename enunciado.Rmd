@@ -1,0 +1,122 @@
+---
+title: "Ayudantía 23 Octubre"
+subtitle: "Diplomado en Data Science"
+author: "Camila Paredes - Javiera Romero"
+institute: "Facultad de Matemáticas UC"
+date: ""
+output:
+  xaringan::moon_reader:
+    css:  
+      - xaringan-themer.css
+    lib_dir: libs
+    seal: false
+    nature:
+      titleSlideClass: "inverse"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9" 
+---
+
+class: left, bottom
+
+# `r rmarkdown::metadata$title`
+## `r rmarkdown::metadata$subtitle`
+.center[
+----
+## `r rmarkdown::metadata$author`
+]
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_light(base_color = "#534e7b",
+#style_duo(
+ # primary_color = "#576675",
+ # secondary_color="#f5f5dc", # FF7373
+  header_font_google = google_font("KoHo"),
+  text_font_google   = google_font("Roboto"),
+  code_font_google   = google_font("Fira Mono")
+)
+
+
+```
+
+<style type="text/css">
+
+.remark-slide-content {
+    font-size: 23px;
+}
+
+p{
+text-align: justify;
+}
+
+.azul{
+color:#23395b ;
+}
+
+code.bold{
+font-weight: bold;
+}
+
+.blanco{
+color: white;
+}
+
+code.blanco{
+color: white;
+font-weight: bold;
+}
+
+.small{ font-size: 70% }
+
+.large{ font-size: 130% }
+
+
+tr:nth-child(odd) {background-color: #f5f5f5;}
+
+tr.high {
+  background-color: #e64964;
+  color: white;
+}
+
+td.high {
+  background-color: #e64964;
+  color: white;
+}
+th.high {
+  background-color: #e64964;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+
+</style> 
+
+
+---
+
+### Ejercicio 1
+
+En la ayudantia de hoy, el objetivo será leer los productos en promoción del día de la página web de mercado libre (pagina estatica). Para esto realizaremos diferentes pasos hasta llegar a una función dinamica. 
+
+*1.* Rescatar el 'número de paginas' que tiene mercado libre en promoción del día.
+
+---
+
+### Ejercicio 2
+
+Podemos hacer una nuve de palabras??
+
+---
+
+### Paginas interactivas?
+
+
+
+
+
