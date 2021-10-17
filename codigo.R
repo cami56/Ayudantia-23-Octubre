@@ -158,5 +158,16 @@ bigramas <- df$nombre %>%
 bigramas %>% 
   slice_max(n, n = 12) %>% 
   ggplot(aes(y = reorder(bigrama, n), n)) +
-  geom_col()
+  geom_col(fill = "#56bc8a") + # código hexadecimal 
+  geom_text(aes(label = n), hjust = -0.5) +
+  labs(y = NULL,
+       title = "bigramas mas frecuentes de productos en oferta") +
+  theme_minimal() 
+
+
+
+
+# Parte 2 -----------------------------------------------------------------
+
+  
 
