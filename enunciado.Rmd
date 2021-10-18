@@ -102,20 +102,18 @@ td {
 
 ### Ejercicio 1
 
-En la ayudantia de hoy, el objetivo será extraer la informacion de los productos en promoción del día de la página web de **mercado libre**. Para esto realizaremos diferentes pasos hasta llegar a una función dinamica. 
+En la ayudantía de hoy, el objetivo será extraer la información de los productos en promoción del día de la página web de **mercado libre**. Para esto realizaremos diferentes pasos hasta llegar a una función dinamica. 
 
 **1.** Rescatar el 'número de paginas' que tiene mercado libre en promoción del día (esta varia dependiendo del día).
 
-**2.** Obtener el nombre del articulo, precio, url y vendedor del producto desde la primera pagina.
+**2.** Obtener el nombre del artículo, precio, url y vendedor del producto desde la primera página.
 
 **3.** Automatizar el proceso anterior para obtener todos los productos disponibles en oferta del día. 
 
-**4.** Análizar la frecuencia de los nombres de los productos, para detectar el tipo de producto mas frecuente en oferta. 
+**4.** Analizar la frecuencia de los nombres de los productos, para detectar el tipo de producto más frecuente en oferta. 
 
 
----
 
-### Ejercicio 2
 
 
 
